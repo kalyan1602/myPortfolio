@@ -220,53 +220,39 @@ blockquote {
 /* Mobile small screen */
 
 @media (max-width: 250px) {
-
     /* Layout */
-
     .container {
         margin: 0 1px 0 1px;
         padding: 2px;
     }
-
     /* Header */
-
     .navigation {
         justify-self: center;
         padding: 2px;
     }
-
     .logo2 {
         display: none;
     }
-
     .logo h1 {
         font-size: 15px;
     }
-
     .right {
         display: none;
     }
-
     /* Footer */
-
     .right {
         display: none;
     }
-
     .footer {
         justify-self: center;
         padding: 2px;
     }
-
     /* Icons */
-
     .fa-briefcase {
         font-size: .8rem;
         color: wheat;
     }
-
     /* Main Content */
-
     .content {
         margin: 1px;
         border: 0;
@@ -274,28 +260,23 @@ blockquote {
         display: inline-grid;
         justify-items: center;
     }
-
     fieldset legend {
         font-size: 12px;
     }
-
     .details {
         margin: 1px;
         padding: 10px;
     }
-
     .title {
         margin: 1px;
         border: 0;
         padding: 0;
         display: contents;
     }
-
     img {
         width: 90px;
         height: 90px;
     }
-
     blockquote {
         font-size: 12px;
     }
@@ -304,55 +285,40 @@ blockquote {
 /* Mobile medium screen */
 
 @media (min-width: 251px) and (max-width: 400px) {
-
     /* Layout */
-
     .content {
         display: inline-grid;
         justify-items: center;
     }
-
     /* Header */
-
     .navigation {
         justify-self: center;
     }
-
     .logo2 {
         display: none;
     }
-
     .logo h1 {
         font-size: 100%;
     }
-
     /* Footer */
-
     .right {
         display: none;
     }
-
     .footer {
         justify-self: center;
     }
-
     /* Main Content */
-
     fieldset legend {
         font-size: 12px;
     }
-
     img {
         width: 150px;
         height: 150px;
     }
-
     blockquote {
         font-size: 12px;
     }
-
     /* Icons */
-
     .fa-briefcase {
         font-size: 1rem;
         color: wheat;
@@ -362,55 +328,71 @@ blockquote {
 /* Mobile Phone large screen*/
 
 @media (min-width: 400px) and (max-width: 600px) {
-
     /* Layout */
-
     .container {
         width: auto;
         justify-content: center;
     }
-
     /* Header */
-
     .logo2 {
         display: none;
     }
-
     /* Footer */
-
     .footer {
         justify-self: center;
     }
-
     /* Main Content */
-
     .content {
         display: inline-grid;
         justify-items: center;
+    }
+    img {
+        width: 250px;
+        height: 250px;
     }
 }
 
 /* Tablet */
 
 @media (min-width: 600px) and (max-width:930px) {
-
     /* Layout */
-
     .container {
         width: auto;
         justify-content: center;
     }
-
     /* Header */
-
     .logo2 {
         display: none;
     }
-
     /* Footer */
-
     .content {
         display: inline-grid;
         justify-items: center;
+    }
+}
+
+/* Desktop/Laptop */
+
+@media (min-width: 931px) and (max-width:1000px) {
+    .logo h1 {
+        font-size: 25px;
+    }
+    .logo2 a {
+        font-size: 16px;
+    }
+    blockquote {
+        font-size: 16px;
+    }
+    legend {
+        font-size: 19px;
+    }
+}
+
+/* Large Desktop/Laptop */
+
+@media (min-width: 1001px) {
+    .content {
+        width: 100%;
+        height: 100%;
     }
 }
