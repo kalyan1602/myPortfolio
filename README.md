@@ -8,7 +8,7 @@ Static single page describing about me and my achievements.
 ## Demo
 [click here](https://my-portfolio-1625.herokuapp.com/)
 
-## Authors
+## Author
 Kalyan Sundar Bera
 
 ## Copyright
