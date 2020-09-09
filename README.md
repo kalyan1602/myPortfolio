@@ -6,7 +6,7 @@ Static single page describing about me and my achievements.
 - CSS
 
 ## Demo
-[click here](https://my-portfolio-1625.herokuapp.com/)
+[click here](https://my-portfolio-1602.herokuapp.com/)
 
 ## Author
 Kalyan Sundar Bera
